@@ -4,7 +4,7 @@ Before start:
 
 -Make sure that you have the following MATLAB functions from MATLAB File Exchange:
 https://www.mathworks.com/matlabcentral/fileexchange/10226-inhull
-https://www.mathworks.com/matlabcentral/fileexchange/8514-centroid-of-a-convex-n-dimensional-polyhedron
+https://www.mathworks.com/matlabcentral/fileexchange/8514-centroid-of-a-convex-n-dimensional-polyhedron *If you have problems with this script, comment lines 51-53.
 
 -In the reconstructed neurons, the origin (coordinates [0 0 0]) must be the centroid of the cell body.
 -The xyz_position file is a nx3 matrix the contain the position of the centroid of the cell body ([x axis, y axis, z axis]), 
