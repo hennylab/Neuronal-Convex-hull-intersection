@@ -16,7 +16,7 @@ folder = '';    %%%Folder containing segment points - dendrites (.txt) files + x
 cd(folder);
 filelist = dir('*.txt');
 
-load xyz_position.mat
+%%%load xyz_position.mat           %%%Uncomment if you will correct neuron position
 
 for i=1:length(filelist)   
  
