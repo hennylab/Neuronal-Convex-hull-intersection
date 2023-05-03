@@ -1,0 +1,5 @@
+Main scripts used to obtain the files in 'Data analysis' folder:
+-Intersection_NNdendrites -> Figure_2B2B3_Intersection_NNdendrites_T
+-Modeling_CHPinter_Ogdata, Modeling_CHPinter_NormVol, Modeling_CHPinter_NorShape, Modeling_CHPinter_NormCellB -> Figures 6 and 7
+-Modeling_CHPinter_AverageNeuron -> Figure_6B data files
+-Intersection_realpositions_Og, Intersection_realpositions_NormVol, Intersection_realpositions_NormShape, Intersection_realpositions_CellB -> Figure 8B,C
