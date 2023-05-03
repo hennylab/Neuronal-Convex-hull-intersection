@@ -9,7 +9,7 @@ close all
 clear
 clc
 
-folder = '';        %%%Folder that contains .txt files. OPTIONAL: also, add in this folder matrix with cell body position
+folder = '';        %%%Folder that contains .txt files. OPTIONAL: also, add in this folder the matrix with cell body position
 
 cd(folder);
 filelist = dir('*.txt');
