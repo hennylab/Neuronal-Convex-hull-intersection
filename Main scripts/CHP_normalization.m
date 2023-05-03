@@ -16,7 +16,7 @@ folder2 = '';           %%%Folder containing Linepoints_CHP files
 
 cd(folder);
 
-load xyz_position.mat
+load xyz_position.mat   
 
 rF = 1;
 lF = 10000;
