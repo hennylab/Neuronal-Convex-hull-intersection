@@ -1,0 +1,59 @@
+BASIS PROCEDURES TO ANALYZE CONVEX HULL INTERSECTION IN NEURONS
+
+Before start:
+
+-Make sure that you have the following MATLAB functions from MATLAB File Exchange:
+https://www.mathworks.com/matlabcentral/fileexchange/10226-inhull
+https://www.mathworks.com/matlabcentral/fileexchange/8514-centroid-of-a-convex-n-dimensional-polyhedron
+
+-In the reconstructed neurons, the origin (coordinates [0 0 0]) must be the centroid of the cell body.
+-The xyz_position file is a nx3 matrix the contain the position of the centroid of the cell body ([x axis, y axis, z axis]), 
+when the neuron is located in its real position on its brain region. The use of this file is optional in many of these scripts, but it is mandatory for the
+scripts using neurons in their real positions. Always check inside each script whether you consider or not the real position of the neuron in the analysis, and 
+comment or uncomment the lines related to that condition. This is relevant, because when xyz_position is used, the neuron position will be modified and the centroid 
+of the cell body will be the origin (coordinates [0 0 0]).
+-Always check that the files used in each script are located in the required folder.
+
+1. Obtain a line points convex hull file, using ConvexHull2LinePoints_txt or ConvexHull2LinePoints_swc.
+These functions transform convex hulls polyhedrons edges to points.
+Use with .txt (or swc) files containing Segment Points - Dendrites data obtained from Neurolucida Explorer.
+
+2. Use one of the following functions to obtain the intersected volume between pairs of convex hulls, in a given condition:
+
+-Intersection_NNdendrites:
+To obtain the nearest neighbor from dendritic segments inside the intersected volume. Also, this function gives the dendritic length inside the intersected volume.
+Script adapted to use with neuron positioned in their region. Before using this script, you must use 'Dendrites2linepoints' to transform dendritic segments to points.
+
+-Modeling_CHPinter_Ogdata: 
+Calculate the intersected volume of pairs of neurons convex hulls, in a set of distances between cell bodies and axes.
+
+-Modeling_CHPinter_NormVol: 
+Calculate the intersected volume of pairs of neurons convex hulls, in a set of distances between cell bodies and axes. 
+Apply the normalized volume condition.
+
+-Modeling_CHPinter_NorShape:
+Calculate the intersected volume of pairs of neurons convex hulls, in a set of distances between cell bodies and axes. 
+Apply the normalized Shape condition. Before using this script, you must obtain the normalized shape of your neurons population, using the following scripts:
+I) CHP_normalization: Transform linepoints convex hulls to a normalized point representation, with an equal number of points per convex hull. 
+II) Normalized shape: Using the convex hulls from CHP_normalization, obtain the normalized shape from the neurons population.
+
+-Modeling_CHPinter_NormCellB:
+Calculate the intersected volume of pairs of neurons convex hulls, in a set of distances between cell bodies and axes.
+Apply the normalized cell body condition. Before using this script, you must use the 'CHP_centroid' script, to obtain a matrix containing the centroid coordinates of each neuron.
+
+-Modeling_CHPinter_AverageNeuron:
+Calculate the intersected volume of pairs of neurons convex hulls, in a set of distances between cell bodies and axes. 
+Use a determined convex hull as the average neuron, according to a defined criteria (for example, average dendritic length, average isotropy index, etc...)
+
+-Intersection_realpositions_Og:
+To obtain the intersected volume between pairs of neurons convex hulls, in their real positions in the region.
+
+-Intersection_realpositions_NormVol: 
+To obtain the intersected volume between pairs of neurons convex hulls, in their real positions in the region. Normalized volume condition is applied.
+
+-Intersection_realpositions_NormShape: 
+To obtain the intersected volume between pairs of neurons convex hulls, in their real positions in the region. Normalized shape condition is applied.
+Use a 'Normalized shape' convex hull (as explained in 'Modeling_CHPinter_NorShape').
+
+-Intersection_realpositions_CellB:
+To obtain the intersected volume between pairs of neurons convex hulls, in their real positions in the region. Normalized cell body is applied.
