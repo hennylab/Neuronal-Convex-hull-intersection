@@ -16,3 +16,5 @@ Montero T, Gatica RI, Farassat N, Meza R, González-Cabrera C, Roeper J, Henny P
 
 -SNc (rat):
 Henny P, Brown MTC, Northrop A, Faunes M, Ungless M a, Magill PJ, Bolam JP. 2012. Structural correlates of heterogeneous in vivo activity of midbrain dopaminergic neurons. Nat Neurosci [Internet] 15:613–619. Available from: http://dx.doi.org/10.1038/nn.3048
+
+NOTE: The row order in xyz_position file of VTA (mouse) correspond to the file order in the VTA (mouse) folder (sorted by name, ascending).
