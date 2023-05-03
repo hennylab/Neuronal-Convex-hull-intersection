@@ -1,6 +1,6 @@
 %Intersection_realpositions_NormCellB
 %Use: To obtain the intersected volume between pairs of neurons convex
-%hulls, in their real positions in the region. Normalized cell body is applied
+%hulls, in their real positions in the region. Normalized cell body is applied.
 %Version 1.0
 %Author: Rafael Gatica
 %Email: rigatica@uc.cl
