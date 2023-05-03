@@ -1,0 +1,18 @@
+All neurons were obtained from https://neuromorpho.org/
+
+References:
+
+-Mediodorsal thalamic neurons (MD):
+Kuramoto E, Pan S, Furuta T, Tanaka YR, Iwai H, Yamanaka A, Ohno S, Kaneko T, Goto T, Hioki H. 2017. Individual mediodorsal thalamic neurons project to multiple areas of the rat prefrontal cortex: A single neuron-tracing study using virus vectors. Journal of Comparative Neurology 525:166–185.
+
+-Spinal motoneurons (MN):
+Rotterman TM, Nardelli P, Cope TC, Alvarez FJ. 2014. Normal distribution of VGLUT1 synapses on spinal motoneuron dendrites and their reorganization after nerve injury. Journal of Neuroscience 34:3475–3492.
+
+-Purkinje cells (PC):
+Nedelescu H, Abdelhack M, Pritchard AT. 2018. Regional differences in Purkinje cell morphology in the cerebellar vermis of male mice. J Neurosci Res 96:1476–1489.
+
+-SNc (mouse), VTA (mouse):
+Montero T, Gatica RI, Farassat N, Meza R, González-Cabrera C, Roeper J, Henny P. 2021. Dendritic Architecture Predicts in vivo Firing Pattern in Mouse Ventral Tegmental Area and Substantia Nigra Dopaminergic Neurons. Front Neural Circuits 15.
+
+-SNc (rat):
+Henny P, Brown MTC, Northrop A, Faunes M, Ungless M a, Magill PJ, Bolam JP. 2012. Structural correlates of heterogeneous in vivo activity of midbrain dopaminergic neurons. Nat Neurosci [Internet] 15:613–619. Available from: http://dx.doi.org/10.1038/nn.3048
