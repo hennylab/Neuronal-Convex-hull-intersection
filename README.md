@@ -5,6 +5,7 @@ Raw data, MATLAB scripts and data analysis from:
 Geometrical factors determining dendritic domain intersection between neurons: a modeling study
 
 Rafael Ignacio Gatica (1,2) · Trinidad Montero (2) · Navid Farassat (3) · Pablo Henny (2,4,5)*
+
 (1)	 Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile
 (2) Laboratorio de Neuroanatomía, Departamento de Anatomía, Escuela de Medicina and Centro Interdisciplinario de Neurociencia, NeuroUC, Pontificia Universidad Católica de Chile, Santiago, Chile
 (3) Institute of Neurophysiology, Goethe Institut, Frankfurt, Germany
