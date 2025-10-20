@@ -16,6 +16,8 @@ Brain Structure and Function (2025) 230:154
 
 https://doi.org/10.1007/s00429-025-03011-6
 
+https://www.researchgate.net/publication/396449834_Geometrical_factors_determining_dendritic_domain_intersection_between_neurons_a_modeling_study
+
 *Corresponding author:
 E-mail: pablohenny@uc.cl
 
